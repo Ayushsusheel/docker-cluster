@@ -4,8 +4,10 @@ Objective
 To implement a edge fog cloud Continuum where tasks are scheduled and executed based 
 on: 
 1. Security Sensitivity: 
-○ Security-sensitive tasks execute only on Edge nodes. 
-○ Non-sensitive tasks can execute on Edge, Fog, or Cloud nodes. 
+○ \ Security-sensitive tasks execute only on Edge nodes. 
+○ \Non-sensitive tasks can execute on Edge, Fog, or Cloud nodes. 
+\
+\
 2. Data Access Frequency: 
 ○ Frequently accessed data is stored on Edge/Fog nodes. 
 ○ Less frequently accessed data is stored on the Cloud. 
