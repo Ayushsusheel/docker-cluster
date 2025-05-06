@@ -1,3 +1,5 @@
+**Explaination:- https://youtu.be/jPNRJDdI1Cw**
+
 Project Lab Draft: Edge-Fog-Cloud Cluster using Docker 
 Containers and Kubernetes 
 Objective 
