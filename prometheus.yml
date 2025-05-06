@@ -1,0 +1,41 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'edge_nodes'
+    static_configs:
+      - targets:
+          - host.docker.internal:8001
+          - host.docker.internal:8002
+          - host.docker.internal:8003
+          - host.docker.internal:8004
+          - host.docker.internal:8005
+          - host.docker.internal:8006
+          - host.docker.internal:8007
+          - host.docker.internal:8008
+          - host.docker.internal:8009
+          - host.docker.internal:8010
+          - host.docker.internal:8011
+          - host.docker.internal:8012
+          - host.docker.internal:8013
+          - host.docker.internal:8014
+          - host.docker.internal:8015
+
+  - job_name: 'fog_nodes'
+    static_configs:
+      - targets:
+          - host.docker.internal:8101
+          - host.docker.internal:8102
+          - host.docker.internal:8103
+          - host.docker.internal:8104
+          - host.docker.internal:8105
+          - host.docker.internal:8106
+          - host.docker.internal:8107
+          - host.docker.internal:8108
+          - host.docker.internal:8109
+          - host.docker.internal:8110
+
+  - job_name: 'cloud_node'
+    static_configs:
+      - targets:
+          - host.docker.internal:9001
